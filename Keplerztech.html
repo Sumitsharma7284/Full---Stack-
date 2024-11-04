@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeplerZtech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Keperztech.css">
+
+</head> 
+<body>
+    <header>
+        <div class="logo">KeplerZtech</div>
+        <nav>
+            <ul>
+                <div class="nav-search">
+                    <input type="text" placeholder="Search KeplerZtech">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#shop-section">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+        </nav>
+        
+        <div class="profile"><a href="Signin.html">👤</a></div>
+        <div class="nav-icons">
+            <i class="fas fa-shopping-cart Dcart"></i>
+            </div> 
+    </div>
+    </header>
+    <section>
+        <div id="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="user-info" id="userInfo">
+                <div class="user-image">👤</div>
+                <div class="user-heading">Account</div>
+                <a href="Signin.html"><center><div class="sign-in">Sign In</div></center></a>
+            </div>
+
+            <a href="#trending-box">Trending</a>
+            <a href="best">Bestseller</a>
+            <a href="prod">Products</a>
+            <a href="access">Accessories</a>
+            <a href="set">Settings</a>
+        </div>
+        
+        <div id="main">
+            <div class="cont">
+            <span class="openbtn" onclick="openNav()">&#9776;</span>
+            <a href="#shop-section">Buy</a>
+               <a href="">Sell</a> 
+                <a href="">Best Sellers</a>
+                <a href="">Today's Deals</a>
+                <a href="">Prime</a>
+                <a href="">Customer Service</a>
+                <a href="">New Releases</a>
+                <button class="mode-toggle" id="modeToggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+        
+    
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to KeplerZtech</h1>
+            <p>Your one-stop shop for the latest tech gadgets and accessories.</p>
+            <a href="#shop-section" class="shop-now-btn">Explore Now</a>
+        </div>
+    </section>
+</section>
+<div class="prod"><div class="ex"> Explore By Type </div></div>
+<section class="shop-section" id="shop-section">
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\71GnO1KRT4L.jpg">
+                <h2>Gaming Laptop's</h2>
+               <center> <button onclick="openModal()">Quick View</button></center>
+            </div>
+            <div class="flip-card-back">
+                 <h2>Details</h2>
+                <p>Brand: ASUS HP ACER</p>
+                <p>Price: 500$ - $5000</p>
+                <p>Specifications: i9, 32GB RAM, RTX 3080 , etc.</p>
+            <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\product-jpeg-500x500.webp">
+                <center><h2>Gaming PC's</h2></center>
+                <center><button onclick="openModal()">Quick View</button></center> 
+            </div>
+            <div class="flip-card-back">
+                <h2>Details</h2>
+                <p>Brand: ASUS HP ACER</p>
+                <p>Price: 800$ - $2000</p>
+                <p>Specifications: i9, 32GB RAM, RTX 3080 , etc.</p>
+                <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\download (5).jpg">
+                <center><h2>Mech Keyboard</h2></center>
+                <center><button onclick="openModal()">Quick View</button></center> 
+            </div>
+            <div class="flip-card-back">
+                <h2>Details</h2>
+                <p>Brand: ASUS APPLE LOGITECH</p>
+                <p>Price: $150 - $500</p>
+                <p>Specifications: Cherry MX Switches Programmable</p>
+                <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\samsung-odyssey-1.webp">
+                <h2>Monitor's 144Hz</h2>
+                <center><button onclick="openModal()">Quick View</button></center> 
+            </div>
+            <div class="flip-card-back">
+                <h2>Details</h2>
+                <p>Brand: GHI</p>
+                <p>Price: $350 - $600</p>
+                <p>Specifications: 27- 35 inch, 1ms response time , 90hz - 144hz</p>
+                <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\images (2).jpg">
+                <h2>Gaming Mouse</h2>
+                <center><button onclick="openModal()">Quick View</button></center> 
+            </div>
+            <div class="flip-card-back">
+                <h2>Details</h2>
+                <p>Brand: JKL</p>
+                <p>Price: $80</p>
+                <p>Specifications: 1ms response time , 600 - 16000 Dpi</p>
+                <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\711kbS17RyL.jpg">
+                <center><h2>Headset</h2></center>
+                <center><button onclick="openModal()">Quick View</button></center> 
+            </div>
+            <div class="flip-card-back">
+                <h2>Details</h2>
+                <p>Brand: Boat Realme True Logitech</p>
+                <p>Price: $120 - $400</p>
+                <p>Specifications: High Bass , Noise Cancelation , Portable</p>
+                <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\download (6).jpg">
+                <center><h2>Router's</h2></center>
+               <center> <button onclick="openModal()">Quick View</button></center>
+            </div>
+            <div class="flip-card-back">
+                 <h2>Details</h2>
+                <p>Brand: Jio Airtel </p>
+                <p>Price: $20 - $50</p>
+                <p>Specifications: 100 - 300 mb/ps speed , Low latency</p>
+            <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+    <div class="shop-item">
+        <div class="flip-card">
+            <div class="flip-card-front">
+                <img src="Images\811sBakp3+L.jpg">
+                <center><h2>GPU</h2></center>
+               <center> <button onclick="openModal()">Quick View</button></center>
+            </div>
+            <div class="flip-card-back">
+                 <h2>Details</h2>
+                <p>Brand: ASUS HP ACER</p>
+                <p>Price: $900 - $5000</p>
+                <p>Specifications: RTX 3080 , GTX 1650 , RTX 4090 etc.</p>
+            <center><button onclick="openModal()">More Info</button></center> 
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal for Quick View -->
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <center><h1 class="headh1">Select Brand</h1></center>
+        <div class="brand-box-container">
+            <a href="https://www.asus.com/" target="_blank" class="brand-box asus">ASUS</a>
+            <a href="https://www.hp.com/" target="_blank" class="brand-box hp">HP</a>
+            <a href="https://www.dell.com/" target="_blank" class="brand-box dell">Dell</a>
+            <a href="https://www.lenovo.com/" target="_blank" class="brand-box lenovo">Lenovo</a>
+            <a href="https://www.msi.com/" target="_blank" class="brand-box msi">MSI</a>
+        </div>
+    </div>
+</div>
+<div class="bod"><div class="t">Trending</div></div>
+<div class="trending-box">
+       <div class="trending-items">
+            <div class="shop-item">
+                <span class="badge">Best Seller</span>
+                <div class="imge"><img src="Images\61nTNphSBvL._SX679_.jpg"></div>
+                <h2>Asus TUF F17 Gaming</h2>
+            </div>
+            <div class="para"><h2>ASUS TUF F17 Gaming Laptop, Intel Core i5-11400H 11th Gen, 17.3-inch (43.94 cm) 144Hz, (8GB RAM/512GB SSD/4GB NVIDIA GeForce RTX 2050/Windows 11/ RGB Backlit KB/Black/2.30 kg), FX706HF-HX018W</h2>
+            <p>
+                <strong> Processor</strong>: AMD Ryzen 7 7435HS Mobile Processor 3.1GHz (20MB Cache, up to 4.5 GHz, 8 cores, 16 Threads) delivers fast and responsive performance for demanding tasks such as gaming, content creation, and multitasking.<br> 
+                <strong>Display</strong>  : 15.6-inch FHD (1920 x 1080) 16:9, 144Hz, 250 nits Brightness, Anti-Glare Display.<br>
+                <strong>Graphics</strong> : 4GB GDDR6, NVIDIA GeForce RTX 3050 Laptop GPU, Up to 1675MHz at 60W (75W with Dynamic Boost).<br>
+                <strong>Storage</strong> : 512GB PCIe 4.0 NVMe M.2 SSD.<br>
+                <strong>Memory</strong> : 16GB DDR5-5600 Hz, support up to 32 GB, expandable via 2x DDR5 SO-DIM slots.<br>
+                <strong>Fast Charging</strong> : Recharge from 0-50% in 30 minutes.<br>
+            <center>
+                <button class="cart" onclick="toggleCart()">Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+            </center>
+            </div>
+        </div>
+        <div class="trending-items">
+            <div class="para"><h2>HP Victus Gaming Laptop,Windows 11 Home,AMD Ryzen 5 5600H,4Gb RTX 3050 Gpu,15.6-Inch (39.6 Cm),Fhd,IPS,144Hz,16Gb Ddr4,512Gb Ssd,Backlit Kb,B&O,9Ms Response Time,Dual Speakers (Blue,2.37 Kg),Fb0106Ax</h2>
+                <p>
+                    <strong>Processor</strong> : 6-core AMD Ryzen 5 5600H with 12 threads and 16MB L3 cache, designed for serious gaming and multitasking, with updated thermals for cooling.<br>
+                    <strong>Graphics</strong> : 4 GB NVIDIA GeForce RTX 3050 GPU delivers immersive 3D rendering and hyper-efficient data processing.<br>
+                    <strong>Display</strong> : 15.6” FHD micro-edge display with anti-glare, 144Hz refresh rate, and 9ms response time for high-quality visuals.<br>
+                    <strong>Battery Life</strong> : 3-cell, 52.5Wh battery with fast charge up to 50% in 30 minutes for uninterrupted gaming.<br>
+                    <strong>Connectivity</strong> : Wi-Fi 6, Bluetooth 5.3, plus 1 x USB Type-C, 2 x USB Type-A, 1 x RJ-45, and 1 x HDMI 2.1 ports.<br>
+                </p>
+                <center>
+                    <button class="cart" onclick="toggleCart()">Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </center>
+                        </div>
+            <div class="shop-item">
+                <span class="badge2">New Arrival</span>
+                <div class="imge"><img src="Images\41NwmRIOdYL._SX300_SY300_QL70_FMwebp_.webp"></div>
+                <h2>HP Victus Gaming</h2>
+            </div>
+           
+        </div>
+        <div class="trending-items">
+            <div class="shop-item">
+                <span class="badge">People's Choice</span>
+                <div class="imge"><img src="Images\81tmCrtiRgL._SX679_.jpg"></div>
+                <h2>Lenovo LQQ 12th </h2>
+            </div>
+            <div class="para"><h2>Lenovo [Smartchoice LOQ 12th Gen Intel Core i5-12450HX /39.6cm/ 144Hz 300Nits FHD Gaming Laptop (16GB/512GB SSD/Win 11/ RTX 3050 6GB Graphics/100% sRGB/MSO 21/3 Mon Game Pass/Grey/2.4Kg), 83GS003UIN</h2>
+            <p>
+                <strong>Processor</strong> : Intel Core i5-12450HX, 2.4GHz (Base) - 4.4GHz (Max), 8 Cores, 12 Threads, 12MB Cache.<br>                
+                <strong>Display</strong> : 15.6" FHD (1920x1080) IPS, 144Hz Refresh Rate, 100% sRGB, 300 Nits Brightness, Anti-glare.<br>               
+                <strong>Connectivity</strong> : Wi-Fi 6E 11ax (2x2), Bluetooth 5.2.<br>                
+                <strong>Memory and Storage</strong> : 16GB DDR5-4800 RAM, 512GB SSD (Expandable up to 1TB).<br>               
+                <strong>Graphics</strong> : NVIDIA GeForce RTX 3050, 6GB GDDR6, Boost Clock 1732MHz, TGP 95W, G-Sync.<br>   
+                <strong>Cooling</strong> : Hyperchamber thermal design with dual outward-spinning fans, sealed chamber for 10W boost in Extreme Mode and low noise.<br>          
+                <strong>Battery Life</strong> : 60Wh, up to 6 hours, Rapid Charge Pro (100% in 80 minutes).<br>      
+            </p>
+            <center>
+                <button class="cart" onclick="toggleCart()">Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+            </center>
+                    </div>
+        </div>
+        <div class="trending-items">
+            <div class="para"><h2>Acer ALG Gaming Laptop 12th Gen Intel Core i5 Processor (16GB RAM/512GB SSD/6GB RTX3050/144Hz/Win11Home/Wifi 6) AL15G-52, 39.62cm (15.6") Full HD, Premium Metal Body, Steel Gray, 1.99KG</h2>
+                <p>
+                    <strong>Powerful Productivity</strong> : 12th Generation Intel Core i5-12450H Dual Core processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences.<br> With Turbo Boost Technology, get up to 4.4GHz for your high-demand applications.<br> 
+                    <strong>Connectivity Technology</strong> : Wi-Fi, Bluetooth, HDMI.<br>
+                    <strong>Visibly Stunning</strong> : Experience sharp details and crisp colors on the 15.6" Full HD display, 16:9 aspect ratio, ultra-slim design, and narrow bezels.<br>
+                    <strong>Ports</strong> : Two USB 3.2 Type-C ports, one USB 2.0 Type-A port, and one USB 3.2 Type-A port.<br>
+                    <strong>Keyboard</strong> : Multi-language, multi-color illuminated full-size keyboard with numeric pad.<br>
+                </p>
+                <center>
+                    <button class="cart" onclick="toggleCart()">Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </center>
+                        </div>
+            <div class="shop-item">
+                <span class="badge2">Trending</span>
+                <div class="imge"><img src="Images\61TeuJCIVcL._SX679_.jpg"></div>
+                <h2>Acer ALG Laptop</h2>
+            </div>
+           
+        </div>
+</div>
+<div class="popup" id="popup">Added to Cart</div>
+
+
+<div class="about-us">
+    <h2>Elevate Your Gaming Experience with KeplerzTech!</h2>
+    <p>At <strong>KeplerzTech</strong>, we are passionate about providing the best tools for gamers, creators, and professionals alike. Our carefully curated selection of <strong>high-performance laptops</strong>, <strong>ergonomic keyboards</strong>, and <strong>premium gaming accessories</strong> is designed to take your setup to the next level.</p>
+
+    <strong><h3>Why Choose Us?</h3></strong>
+    <ul style="list-style: none; padding: 0;">
+        <li><strong>Top-Tier Gaming Laptops</strong> : Featuring the latest processors, stunning graphics, and lightning-fast performance from brands like Asus, MSI, and more. Whether you need a powerhouse for gaming or demanding creative work, we have the perfect machine for you.</li>
+        <li><strong>Precision Keyboards</strong> : Discover our range of mechanical and membrane keyboards, built for speed, precision, and long-lasting durability. Whether you're a competitive gamer or a casual typist, find the perfect fit for your style.</li>
+        <li><strong>Gaming Accessories</strong> : From high-resolution monitors to cutting-edge mice, headsets, and controllers, we offer the tools that will help you achieve victory.</li>
+    </ul>
+    <p>Upgrade your gear today with <strong>KeplerzTech</strong> and experience the difference in your performance!</p>
+</div>
+<div class="line"></div>
+
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p><strong>Address:</strong> XYZ Sector,Indira Nagar Lucknow</p>
+        <p><strong>Phone:</strong>+91 6392599847</p>
+        <p><strong>Email:</strong> support@keplerztech.com</p>
+        <p><strong>Hours:</strong> Mon-Sat 9am - 5pm</p>
+    </div>
+</section>
+<div class="line"></div>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 KeplerZtech. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+    <script>
+           let isInCart = false; 
+function toggleCart() {
+    const popup = document.getElementById('popup');
+
+    isInCart = !isInCart;
+
+    popup.textContent = isInCart ? "Added to Cart" : "Removed from Cart";
+
+    popup.style.display = 'block';
+
+    setTimeout(() => {
+        popup.style.display = 'none';
+    }, 2000);
+}
+         function openNav() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    const modeToggle = document.getElementById('modeToggle');
+    const body = document.body;
+
+    modeToggle.addEventListener('click', () => {
+        body.classList.toggle('light-mode');
+        if (body.classList.contains('light-mode')) {
+            modeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            modeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+    });
+
+    const cartIcon = document.querySelector('.cart-icon');
+    const cartItems = document.getElementById('cart-items');
+
+    cartIcon.addEventListener('click', () => {
+        cartItems.classList.toggle('show');
+    });
+
+    const accessibilityToggle = document.querySelector('.accessibility-toggle');
+    const accessibilityOptions = document.querySelector('.accessibility-options');
+
+    accessibilityToggle.addEventListener('click', () => {
+        accessibilityOptions.classList.toggle('show');
+    });
+
+    const fontSizeInput = document.querySelector('.font-size-option input');
+    
+    fontSizeInput.addEventListener('input', (e) => {
+        document.body.style.fontSize = `${e.target.value}px`;
+    });
+    function openModal() {
+            document.getElementById("productModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("productModal").style.display = "none";
+        }
+    </script>
+</body>
+</html>
+    
